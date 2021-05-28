@@ -7,6 +7,34 @@ MODULE Module1
     CONST robtarget Welding_legr_3:=[[492.28611356,1.174026671,101.735814814],[0.381903161,0.089000873,0.894934883,0.212885827],[1,2,-2,4],[124.109989426,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget Welding_legr_4:=[[486.286692413,1.172930738,101.734952345],[0.381902109,0.089000616,0.894935318,0.212885992],[1,2,-2,4],[124.109983855,9E+09,9E+09,9E+09,9E+09,9E+09]];
     CONST robtarget Welding_legr_5:=[[484.286867502,1.172484711,101.734755535],[0.38190173,0.08900051,0.894935551,0.212885737],[1,2,-2,4],[124.109987599,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Pot_0_4:=[[590.547168499,-98.993259069,163.691697817],[0.335236004,-0.168177429,-0.926608093,0.027029893],[0,0,0,0],[80.11805131,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Pot_0_6:=[[472.176536102,2.75169226,103.312635348],[0.418722396,-0.063346331,-0.905892526,0.00418673],[1,0,0,0],[86.440027328,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_enter:=[[484.177640449,2.748235942,103.308836916],[0.418725834,-0.063345983,-0.90589095,0.004189096],[1,0,0,0],[86.440027075,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_1_e:=[[484.177924897,2.747204171,102.307741695],[0.418726788,-0.063345822,-0.905890517,0.004189793],[1,0,0,0],[86.440028939,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_1_w:=[[484.177845913,2.747723006,101.308341761],[0.418726268,-0.063345905,-0.905890754,0.004189445],[1,0,0,0],[86.440026017,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_2_e:=[[486.178059863,2.746844936,102.307333468],[0.418727202,-0.063345786,-0.905890328,0.004190036],[1,0,0,0],[86.440024564,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_2_w:=[[486.178145818,2.74666294,101.307134051],[0.418727386,-0.063345778,-0.905890242,0.004190163],[1,0,0,0],[86.440025637,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_3_e:=[[488.178366821,2.746111375,102.306544048],[0.41872787,-0.063345748,-0.905890019,0.004190529],[1,0,0,0],[86.440026029,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_3_w:=[[488.178478351,2.745928708,101.306336227],[0.418728047,-0.063345729,-0.905889938,0.00419065],[1,0,0,0],[86.440025513,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_4_e:=[[490.178651185,2.745459557,102.305739299],[0.418728593,-0.06334561,-0.905889693,0.004190968],[1,0,0,0],[86.440029087,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_4_w:=[[490.178670044,2.745273907,101.305537862],[0.418728757,-0.063345598,-0.905889617,0.004191097],[1,0,0,0],[86.440025193,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_5_w:=[[492.178940306,2.744532877,101.304739874],[0.418729463,-0.063345549,-0.905889292,0.004191589],[0,0,0,0],[86.440026814,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_exit:=[[492.179250755,2.744140808,104.304432201],[0.418729758,-0.063345547,-0.905889154,0.004191834],[1,0,0,0],[86.440024676,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_1_e:=[[492.18004979,8.739232692,102.499240164],[0.418746458,-0.063330471,-0.905882347,0.004222475],[0,0,0,0],[86.44002627,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_2_e:=[[490.180259671,8.738864462,102.498840871],[0.418746745,-0.063330421,-0.905882216,0.00422272],[1,0,0,0],[86.440025812,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_3_e:=[[488.180527467,8.737777912,102.497632429],[0.418747795,-0.063330318,-0.905881735,0.004223488],[1,0,0,0],[86.440028253,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_3_w:=[[488.180525158,8.737612648,101.497439871],[0.418747971,-0.063330287,-0.905881655,0.004223609],[1,0,0,0],[86.440027412,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_4_w:=[[486.18074824,8.736882674,101.49663065],[0.418748544,-0.063330238,-0.905881391,0.004224077],[1,0,0,0],[86.44002696,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_5_e:=[[484.181019884,8.736350804,102.496027749],[0.41874908,-0.063330147,-0.905881148,0.004224465],[1,0,0,0],[86.440024978,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_5_w:=[[484.181036911,8.736183038,101.495841142],[0.418749233,-0.063330105,-0.90588108,0.004224586],[1,0,0,0],[86.440026654,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_exit:=[[484.181022627,8.735810695,103.495432719],[0.418749593,-0.063330073,-0.905880914,0.00422487],[1,0,0,0],[86.440024977,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Pot_0_1:=[[282.63851741,-340.819698768,162.147776362],[0.105568742,0.881349299,-0.428938056,0.167603097],[0,1,-3,0],[36.752032663,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legr_5_e:=[[492.178953648,2.744703279,102.304931071],[0.418729297,-0.063345583,-0.905889366,0.004191471],[1,0,0,0],[86.440022889,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_2_w:=[[490.180357199,8.738669503,101.498639938],[0.418746921,-0.063330419,-0.905882135,0.00422285],[1,0,0,0],[86.440025935,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget Pot_0_2:=[[805.746481197,-131.478847588,443.611196027],[0.093603339,0.75659935,0.398721413,0.509722545],[0,1,-3,0],[17.294413616,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_1_w:=[[492.180054048,8.739806387,101.499825429],[0.418745915,-0.063330509,-0.905882597,0.00422209],[0,0,0,0],[86.440025476,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_enter:=[[492.1792375,8.742008189,104.302027287],[0.418731765,-0.063345285,-0.905888238,0.004193328],[1,0,0,0],[86.440025855,9E+09,9E+09,9E+09,9E+09,9E+09]];
+    CONST robtarget legl_4_e:=[[486.180671968,8.737053657,102.496821411],[0.418748431,-0.06333027,-0.905881442,0.004223964],[1,0,0,0],[86.440023469,9E+09,9E+09,9E+09,9E+09,9E+09]];
 !***********************************************************
     !
     ! Module:  Module1
@@ -31,12 +59,49 @@ MODULE Module1
     PROC main()
         !Add your code here
         MoveL Init_state,v200,fine,MyTool\WObj:=wobj0;
-        MoveL Post_1,v200,fine,MyTool\WObj:=wobj0;
-        MoveJ legr_5_exit,v200,fine,MyTool\WObj:=wobj0;
-        MoveJ Welding_legr_1,v200,fine,MyTool\WObj:=wobj0;
-        MoveJ Welding_legr_2,v200,fine,MyTool\WObj:=wobj0;
-        MoveJ Welding_legr_3,v200,fine,MyTool\WObj:=wobj0;
-        MoveJ Welding_legr_4,v200,fine,MyTool\WObj:=wobj0;
-        MoveJ Welding_legr_5,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ Pot_0_1,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ Pot_0_2,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ Pot_0_4,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ Pot_0_6,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_enter,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_1_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_1_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_1_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_2_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_2_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_2_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_3_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_3_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_3_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_4_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_4_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_4_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_5_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_5_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_5_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_exit,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_enter,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_1_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_1_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_1_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_2_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_2_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_2_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_3_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_3_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_3_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_4_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_4_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_4_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_5_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_5_w,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_5_e,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legl_exit,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ legr_enter,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ Pot_0_6,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ Pot_0_4,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ Pot_0_2,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ Pot_0_1,v200,fine,MyTool\WObj:=wobj0;
+        MoveJ Init_state,v200,fine,MyTool\WObj:=wobj0;
     ENDPROC
 ENDMODULE
